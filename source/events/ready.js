@@ -54,14 +54,13 @@ module.exports = (client) => {
 // Plugins Page
 app.get('/plugins', function(req, res) {
     var username = client.user.username;
-    var help = jsonfile.readFileSync(filep).help;
-    var serverinfo = jsonfile.readFileSync(filep).info;
-    var userinfo = jsonfile.readFileSync(filep).userinfo;
+    var config = jsonfile.readFileSync(file);
+    var plugins = jsonfile.readFileSync(filep);
+
     res.render('pages/plugins', {
         username: username,
-        help: help,
-        serverinfo: serverinfo,
-        userinfo: userinfo
+        plugins: plugins,
+        config: config
     });
 });
 
@@ -70,14 +69,12 @@ app.post('/plugins', urlencodedParser,function(req, res) {
     var username = client.user.username;
     json.update('./cfg/plugins.json',{help:`${req.body.help}`, info:`${req.body.serverinfo}`, userinfo:`${req.body.userinfo}`})
     .then(function(dat) { 
-    var help = jsonfile.readFileSync(filep).help;
-    var serverinfo = jsonfile.readFileSync(filep).info;
-    var userinfo = jsonfile.readFileSync(filep).userinfo;
+    var config = jsonfile.readFileSync(file);
+    var plugins = jsonfile.readFileSync(filep);
      res.render('pages/plugins', {
         username: username,
-        help: help,
-        serverinfo: serverinfo,
-        userinfo: userinfo
+        plugins: plugins,
+        config: config
      }); 
    });
 });
