@@ -45,6 +45,7 @@ Got an issue or need help setting up join the [**Discord Server**](https://disco
 * Ability to change the BOTS profile picture in settings. **Not yet in Development**
 * Change BOTS status in settings. **In Development**
 * More statistics on main dashboard. **Not yet in Development**
+* Dark Mode **Not yet in Development**
 * **Open issues for features you want**
 
 ## Commands / Plugins List
