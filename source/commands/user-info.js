@@ -18,7 +18,7 @@ exports.run = (client, message, args) =>{
     }
     else
     {
-        console.log(chalk.red("Plugin User-Info not enabled."))
+        console.log(chalk.red("Plugin User-Info not enabled. "))
     }
 }
  
