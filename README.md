@@ -12,9 +12,23 @@
 Discord BOT Dashboard is made to make **Discord BOT Development** easy, designed to create applications without having to write a single line of code while using a user freindly Web-Dashboard!
 
 # Dashboard Preview 
-<img src="https://i.imgur.com/mcF1WMj.png" >
+<img src="https://i.imgur.com/mcF1WMj.png">
 
-## Commands / Plugin List 
+# Table of contents
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Commands](#commands)
+  * [Moderation](#moderation)
+  * [Utilities](#utilities)
+  * [Fun](#fun)
+  * [Music](#music)
+
+## Requirements
+* [Node.JS](https://nodejs.org/en/) (v12.3.1 or later)
+
+## Installation
+
+## Commands
 ### Moderation:
 * **Ban** - Bans a user from the server. **Usage:** !ban @user
 * **Kick** - Kicks a user from the server. **Usage:** !kick @user
@@ -51,3 +65,4 @@ __Created by PapaSnags#1555__
 * [Instagram](https://www.instagram.com/papa.snags/)
 * [Discord Server](https://discord.com/invite/w7B5nKB)
 </br>
+
