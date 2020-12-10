@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/settings/head'); %>
+</head>
+<body class="container">
+
+    <header>
+        <%- include('../partials/settings/header'); %>
+    </header>
+
+    <main>
+        <div class="jumbotron">
+            <h1>Settings</h1>
+            <p>Change settings within the dashboard. (<strong>*</strong> = requires server restart to apply!)</p>
+            <form id="settings-form" method="POST" action="/settings">
+                <label for="prefix">*Prefix:</label><br>
+                <input type="text" id="prefix" name="prefix" value=<%= prefix %>><br>
+                </br>
+                <input type="submit" value="Submit">
+              </form> 
+        </div>
+    </main>
+
+    <footer>
+        <%- include('../partials/footer'); %>
+    </footer>
+
+</body>
+</html>

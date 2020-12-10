@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/plugins/head'); %>
+</head>
+<body class="container">
+
+    <header>
+        <%- include('../partials/plugins/header'); %>
+    </header>
+
+    <main>
+        <div class="jumbotron">
+            <h1><%= username %> - Plugins</h1>
+            <p>Select what Plugins you want to enable.</p>
+            <form id="plugins-form" method="POST" action="/plugins">
+                <label for="help">Help:</label>
+                <select id="help" name="help">
+                  <option id="help-true" value="true">Enabled</option>
+                  <option id="help-false" value="false">Disabled</option>
+                </select>
+                <label for="serverinfo">Server Info:</label>
+                <select id="serverinfo" name="serverinfo">
+                  <option id="serverinfo-true" value="true">Enabled</option>
+                  <option id="serverinfo-false" value="false">Disabled</option>
+                </select>
+                <label for="userinfo">User Info:</label>
+                <select id="userinfo" name="userinfo">
+                  <option id="userinfo-true" value="true">Enabled</option>
+                  <option id="userinfo-false" value="false">Disabled</option>
+                </select>
+            </br>
+                </br>
+                <input type="submit" value="Save">
+              </form>
+            </br>
+            <h2>Commands List:</h2>
+            <ul>
+                <li><strong>Help</strong> - Sends a list for all plugins enabled.</li>
+                <li><strong>Server Info</strong> - Sends information about the current server.</li>
+                <li><strong>User Info</strong> - Sends information about given user.</li>
+
+            </ul>
+        </div>
+    </main>
+    <script>
+        function sel() {
+        document.getElementById("help-"+<%= help %>).selected = "true";
+        document.getElementById("serverinfo-"+<%= serverinfo %>).selected = "true";
+        document.getElementById("userinfo-"+<%= userinfo %>).selected = "true";
+        }
+        sel()
+        </script>
+    <footer>
+        <%- include('../partials/footer'); %>
+    </footer>
+
+</body>
+</html>
