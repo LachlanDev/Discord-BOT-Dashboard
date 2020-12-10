@@ -1,6 +1,6 @@
 <h1 align="center">
     <br>
-    <p>Discord BOT Dashboard</p>
+    <p>Discord BOT Dashboard - v1.0</p>
 <h1>
 <p align="center">
     <a href="https://github.com/papasnags/Discord-BOT-Dashboard/releases">
@@ -9,7 +9,7 @@
 </p>
 
 # About
-Discord BOT Dashboard is made to make **Discord BOT Development** easy, designed to create applications without having to write a single line of code while using a user friendly Web-Dashboard!
+Discord BOT Dashboard is made to make **Discord BOT Development** easy, designed to create applications without having to write a single line of code while using a user freindly Web-Dashboard!
 
 # Dashboard Preview 
 <img src="https://i.imgur.com/mcF1WMj.png">
@@ -38,7 +38,15 @@ node index.js
 ```
 You should now be able to access the dashboard at **http://localhost:3000**. Goto the Plugins tab and enable what commands you want!
 
-## Commands
+
+## Upcoming Features
+* User Auth (Login to access dashboard). **In Development**
+* Ability to change the BOTS profile picture in settings. **Not yet in Development**
+* Change BOTS status in settings. **In Development**
+* More statistics on main dashboard. **Not yet in Development**
+* **Open issues for features you want**
+
+## Commands / Plugins List
 ### Moderation:
 * **Ban** - Bans a user from the server. **Usage:** !ban @user
 * **Kick** - Kicks a user from the server. **Usage:** !kick @user
