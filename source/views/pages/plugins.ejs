@@ -34,20 +34,41 @@
                 <input type="submit" value="Save">
               </form>
             </br>
-            <h2>Commands List:</h2>
+            <h2>Commands List</h2>
+            <h4>Moderation:</h4>
             <ul>
-                <li><strong>Help</strong> - Sends a list for all plugins enabled.</li>
-                <li><strong>Server Info</strong> - Sends information about the current server.</li>
-                <li><strong>User Info</strong> - Sends information about given user.</li>
-
+                <li><strong>Ban</strong> - Bans a user from the server. <strong>Usage: </strong><%= config.prefix %>ban @user</li>
+                <li><strong>Kick</strong> - Kicks a user from the server. <strong>Usage: </strong><%= config.prefix %>kick @user</li>
+                <li><strong>Clear</strong> - Clears messages from a channel. <strong>Usage: </strong><%= config.prefix %>clear 5</li>
+            </ul>
+            <h4>Utilities:</h4>
+            <ul>
+                <li><strong>User Info</strong> - Sends information about a given user. <strong>Usage: </strong><%= config.prefix %>user-info @user</li>
+                <li><strong>Server Info</strong> - Sends information about the current server. <strong>Usage: </strong><%= config.prefix %>server-info</li>
+                <li><strong>Stats</strong> - Statistics of the BOT. <strong>Usage: </strong><%= config.prefix %>stats</li>
+                <li><strong>Help</strong> - Sends a list for all plugins / commands enabled. <strong>Usage: </strong><%= config.prefix %>help</li>
+            </ul>
+            <h4>Fun:</h4>
+            <ul>
+                <li><strong>Coin Flip</strong> - Flip a coin (heads / tails). <strong>Usage: </strong><%= config.prefix %>coin</li>
+                <li><strong>Dog</strong> - Sends a random image of a dog. <strong>Usage: </strong><%= config.prefix %>dog</li>
+                <li><strong>Cat</strong> - Sends a random image of a cat. <strong>Usage: </strong><%= config.prefix %>cat</li>
+                <li><strong>8-Ball</strong> - Ask the 8-ball a question. <strong>Usage: </strong><%= config.prefix %>8-ball</li>
+                <li><strong>Roll</strong> - Roles a dice (6-Sided). <strong>Usage: </strong><%= config.prefix %>roll</li>
+            </ul>
+            <h4>Music:</h4>
+            <ul>
+                <li><strong>Play</strong> - Plays a song. (Youtube Link) <strong>Usage: </strong><%= config.prefix %>play URL</li>
+                <li><strong>Stop</strong> - Stops currect song playing. <strong>Usage: </strong><%= config.prefix %>stop</li>
+                <li><strong>Leave</strong> - Disconnects from currecnt VC. <strong>Usage: </strong><%= config.prefix %>leave</li>
             </ul>
         </div>
     </main>
     <script>
         function sel() {
-        document.getElementById("help-"+<%= help %>).selected = "true";
-        document.getElementById("serverinfo-"+<%= serverinfo %>).selected = "true";
-        document.getElementById("userinfo-"+<%= userinfo %>).selected = "true";
+        document.getElementById("help-"+<%= plugins.help %>).selected = "true";
+        document.getElementById("serverinfo-"+<%= plugins.info %>).selected = "true";
+        document.getElementById("userinfo-"+<%= plugins.userinfo %>).selected = "true";
         }
         sel()
         </script>
