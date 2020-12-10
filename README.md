@@ -14,19 +14,29 @@ Discord BOT Dashboard is made to make **Discord BOT Development** easy, designed
 # Dashboard Preview 
 <img src="https://i.imgur.com/mcF1WMj.png">
 
-# Table of contents
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Commands](#commands)
-  * [Moderation](#moderation)
-  * [Utilities](#utilities)
-  * [Fun](#fun)
-  * [Music](#music)
 
 ## Requirements
 * [Node.JS](https://nodejs.org/en/) (v12.3.1 or later)
 
-## Installation
+## Installation / Setup
+#### Installing Requirements
+Download the latest version from [Releases](https://github.com/papasnags/Discord-BOT-Dashboard/releases), open up the root directory and run the following command.
+```bash
+npm install
+```
+
+#### Setting up BOT
+Open up the config.json file found in the **cfg** folder and input the required fields.
+```json
+{"token":"token_here","prefix":"prefix_here"}
+```
+
+#### Starting the application 
+Open up the root directory and run the following command.
+```bash
+node index.js
+```
+You should now be able to access the dashboard at **http://localhost:3000**. Goto the Plugins tab and enable what commands you want!
 
 ## Commands
 ### Moderation:
