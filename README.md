@@ -37,7 +37,8 @@ Open up the root directory and run the following command.
 node index.js
 ```
 You should now be able to access the dashboard at **http://localhost:3000**. Goto the Plugins tab and enable what commands you want!
-
+</br>
+Got an issue or need help setting up join the [**Discord Server**](https://discord.com/invite/w7B5nKB)
 
 ## Upcoming Features
 * User Auth (Login to access dashboard). **In Development**
