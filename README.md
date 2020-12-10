@@ -1,7 +1,5 @@
 <h1 align="center">
     <br>
-    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" height="200">
-    <br>
     <p>Discord BOT Dashboard</p>
 <h1>
 <p align="center">
@@ -50,5 +48,6 @@ If you have any issues feel free to open an issue or join the [Discord Server](h
 __Created by PapaSnags#1555__
 * [Website](https://papa-snags.com/projects/PLUG/)
 * [Twitter](https://twitter.com/PapaSnags)
+* [Instagram](https://www.instagram.com/papa.snags/)
 * [Discord Server](https://discord.com/invite/w7B5nKB)
 </br>
