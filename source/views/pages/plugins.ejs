@@ -14,20 +14,48 @@
             <h1><%= username %> - Plugins</h1>
             <p>Select what Plugins you want to enable.</p>
             <form id="plugins-form" method="POST" action="/plugins">
-                <label for="help">Help:</label>
-                <select id="help" name="help">
-                  <option id="help-true" value="true">Enabled</option>
-                  <option id="help-false" value="false">Disabled</option>
+                <h4>Moderation:</h4>
+                <label for="ban">Ban:</label>
+                <select id="ban" name="ban">
+                  <option id="ban-true" value="true">Enabled</option>
+                  <option id="ban-false" value="false">Disabled</option>
+                </select>
+                <label for="kick">Kick:</label>
+                <select id="kick" name="kick">
+                  <option id="kick-true" value="true">Enabled</option>
+                  <option id="kick-false" value="false">Disabled</option>
+                </select>
+                <label for="clear">Clear:</label>
+                <select id="clear" name="clear">
+                  <option id="clear-true" value="true">Enabled</option>
+                  <option id="clear-false" value="false">Disabled</option>
+                </select>
+                <h4>Utilities:</h4>
+                <label for="userinfo">User Info:</label>
+                <select id="userinfo" name="userinfo">
+                  <option id="userinfo-true" value="true">Enabled</option>
+                  <option id="userinfo-false" value="false">Disabled</option>
                 </select>
                 <label for="serverinfo">Server Info:</label>
                 <select id="serverinfo" name="serverinfo">
                   <option id="serverinfo-true" value="true">Enabled</option>
                   <option id="serverinfo-false" value="false">Disabled</option>
                 </select>
-                <label for="userinfo">User Info:</label>
-                <select id="userinfo" name="userinfo">
-                  <option id="userinfo-true" value="true">Enabled</option>
-                  <option id="userinfo-false" value="false">Disabled</option>
+                <label for="stats">Stats:</label>
+                <select id="stats" name="stats">
+                  <option id="stats-true" value="true">Enabled</option>
+                  <option id="stats-false" value="false">Disabled</option>
+                </select>
+                <label for="help">Help:</label>
+                <select id="help" name="help">
+                  <option id="help-true" value="true">Enabled</option>
+                  <option id="help-false" value="false">Disabled</option>
+                </select>
+                <h4>Fun:</h4>
+                <label for="coin">Coin Flip:</label>
+                <select id="coin" name="coin">
+                  <option id="coin-true" value="true">Enabled</option>
+                  <option id="coin-false" value="false">Disabled</option>
                 </select>
             </br>
                 </br>
