@@ -1,4 +1,4 @@
-const discord = require ("discord.js");
+const discord = require ("discord.js")
 const jsonfile = require('jsonfile')
 const file = './cfg/plugins.json'
 const config = require('../cfg/config.json')
