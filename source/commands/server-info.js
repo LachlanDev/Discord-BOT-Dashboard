@@ -1,5 +1,5 @@
-const discord = require ("discord.js");
-const dateformat = require('dateformat');
+const discord = require ("discord.js")
+const dateformat = require('dateformat')
 const jsonfile = require('jsonfile')
 const file = './cfg/plugins.json'
 const chalk = require("chalk")
