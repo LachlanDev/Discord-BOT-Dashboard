@@ -43,16 +43,19 @@ module.exports = (client) => {
     ];
     var username = client.user.username;
     var av = client.user.avatarURL();
+    var pagetitle = "Dashboard"
     res.render('pages/index', {
         info: info,
         username: username,
         av: av,
-        update: update
+        update: update,
+        pagetitle: pagetitle
     });
 });
 
 // Plugins Page
 app.get('/plugins', function(req, res) {
+    var pagetitle = "Plugins"
     var username = client.user.username;
     var config = jsonfile.readFileSync(file);
     var plugins = jsonfile.readFileSync(filep);
@@ -60,13 +63,15 @@ app.get('/plugins', function(req, res) {
     res.render('pages/plugins', {
         username: username,
         plugins: plugins,
-        config: config
+        config: config,
+        pagetitle: pagetitle
     });
 });
 
 // Plugins Post Event
 app.post('/plugins', urlencodedParser,function(req, res) {
     var username = client.user.username;
+    var pagetitle = "Plugins"
     json.update('./cfg/plugins.json',{help:`${req.body.help}`, info:`${req.body.serverinfo}`, userinfo:`${req.body.userinfo}`})
     .then(function(dat) { 
     var config = jsonfile.readFileSync(file);
@@ -74,32 +79,39 @@ app.post('/plugins', urlencodedParser,function(req, res) {
      res.render('pages/plugins', {
         username: username,
         plugins: plugins,
-        config: config
+        config: config,
+        pagetitle: pagetitle
      }); 
    });
 });
 
 // Support Page
 app.get('/support', function(req, res) {
+    var pagetitle = "Support"
     res.render('pages/support', {
+      pagetitle: pagetitle
     });
 });
 
 // Settings Page
 app.get('/settings', function(req, res) {
+  var pagetitle = "Settings"
     var prefix = jsonfile.readFileSync(file).prefix;
     res.render('pages/settings', {
-        prefix: prefix
+        prefix: prefix,
+        pagetitle: pagetitle
     });
 });
 
 // Settings Post Event
 app.post('/settings', urlencodedParser,function(req, res) {
+    var pagetitle = "Settings"
      json.update('./cfg/config.json',{prefix:`${req.body.prefix}`})
     .then(function(dat) { 
       var prefix = jsonfile.readFileSync(file).prefix;
       res.render('pages/settings', {
-          prefix: prefix
+          prefix: prefix,
+          pagetitle: pagetitle
       }); 
     });
 });
