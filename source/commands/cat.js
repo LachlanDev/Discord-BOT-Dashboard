@@ -15,6 +15,5 @@ exports.run = (client, message, args) =>{
     }else
     {
         console.log(chalk.red("Plugin Cat not enabled. "))
-
     }
 }
