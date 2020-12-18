@@ -31,6 +31,7 @@ Open up the config.json file found in the **cfg** folder and input the required 
 ```json
 {"token":"token_here","prefix":"prefix_here"}
 ```
+Make sure to enable both "Privileged Gateway Intents" on the [**Discord Developer Dashboard**](https://discord.com/developers). This is to fix errors  with "Kick / Ban" Commands!
 
 #### 📡 Starting the application 
 Open up the root directory and run the following command.
