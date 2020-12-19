@@ -4,11 +4,9 @@
     <%- include('../partials/head'); %>
 </head>
 <body class="container">
-
     <header>
         <%- include('../partials/plugins/header'); %>
     </header>
-
     <main>
         <div class="jumbotron">
             <h1><%= username %> - Plugins</h1>
@@ -57,7 +55,43 @@
                   <option id="coin-true" value="true">Enabled</option>
                   <option id="coin-false" value="false">Disabled</option>
                 </select>
-            </br>
+                <label for="dog">Dog:</label>
+                <select id="dog" name="dog">
+                  <option id="dog-true" value="true">Enabled</option>
+                  <option id="dog-false" value="false">Disabled</option>
+                </select>
+                <label for="cat">Cat:</label>
+                <select id="cat" name="cat">
+                  <option id="cat-true" value="true">Enabled</option>
+                  <option id="cat-false" value="false">Disabled</option>
+                </select>
+                <label for="ball">8-Ball:</label>
+                <select id="ball" name="ball">
+                  <option id="ball-true" value="true">Enabled</option>
+                  <option id="ball-false" value="false">Disabled</option>
+                </select>
+                <label for="roll">Roll:</label>
+                <select id="roll" name="roll">
+                  <option id="roll-true" value="true">Enabled</option>
+                  <option id="roll-false" value="false">Disabled</option>
+                </select>
+                <h4>Music:</h4>
+                <label for="play">Play:</label>
+                <select id="play" name="play">
+                  <option id="play-true" value="true">Enabled</option>
+                  <option id="play-false" value="false">Disabled</option>
+                </select>
+                <label for="stop">Stop:</label>
+                <select id="stop" name="stop">
+                  <option id="stop-true" value="true">Enabled</option>
+                  <option id="stop-false" value="false">Disabled</option>
+                </select>
+                <label for="leave">Leave:</label>
+                <select id="leave" name="leave">
+                  <option id="leave-true" value="true">Enabled</option>
+                  <option id="leave-false" value="false">Disabled</option>
+                </select>
+              </br>
                 </br>
                 <input type="submit" value="Save">
               </form>
@@ -103,6 +137,5 @@
     <footer>
         <%- include('../partials/footer'); %>
     </footer>
-
 </body>
 </html>
