@@ -75,22 +75,6 @@
                   <option id="roll-true" value="true">Enabled</option>
                   <option id="roll-false" value="false">Disabled</option>
                 </select>
-                <h4>Music:</h4>
-                <label for="play">Play:</label>
-                <select id="play" name="play">
-                  <option id="play-true" value="true">Enabled</option>
-                  <option id="play-false" value="false">Disabled</option>
-                </select>
-                <label for="stop">Stop:</label>
-                <select id="stop" name="stop">
-                  <option id="stop-true" value="true">Enabled</option>
-                  <option id="stop-false" value="false">Disabled</option>
-                </select>
-                <label for="leave">Leave:</label>
-                <select id="leave" name="leave">
-                  <option id="leave-true" value="true">Enabled</option>
-                  <option id="leave-false" value="false">Disabled</option>
-                </select>
               </br>
                 </br>
                 <input type="submit" value="Save">
@@ -117,12 +101,6 @@
                 <li><strong>Cat</strong> - Sends a random image of a cat. <strong>Usage: </strong><%= config.prefix %>cat</li>
                 <li><strong>8-Ball</strong> - Ask the 8-ball a question. <strong>Usage: </strong><%= config.prefix %>8-ball</li>
                 <li><strong>Roll</strong> - Roles a dice (6-Sided). <strong>Usage: </strong><%= config.prefix %>roll</li>
-            </ul>
-            <h4>Music:</h4>
-            <ul>
-                <li><strong>Play</strong> - Plays a song. (Youtube Link) <strong>Usage: </strong><%= config.prefix %>play URL</li>
-                <li><strong>Stop</strong> - Stops current song playing. <strong>Usage: </strong><%= config.prefix %>stop</li>
-                <li><strong>Leave</strong> - Disconnects from currecnt VC. <strong>Usage: </strong><%= config.prefix %>leave</li>
             </ul>
         </div>
     </main>
