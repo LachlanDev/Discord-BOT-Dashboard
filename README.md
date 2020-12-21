@@ -52,6 +52,8 @@ Got an issue or need help setting up join the [**Discord Server**](https://disco
 * Change BOTS status in settings. ❌
 * More statistics on main dashboard. ❌
 * Dark Mode ❌
+* Music Commands ❌
+
 * **Open issues for features you want**
 
 ## 🔌 Commands / Plugins List
@@ -72,11 +74,6 @@ Got an issue or need help setting up join the [**Discord Server**](https://disco
 * **Cat** - Sends a random image of a cat. **Usage:** !cat
 * **8-Ball** - Ask the 8-ball a question. **Usage:** !8-ball
 * **Roll** - Roles a dice (6-Sided). **Usage:** !roll
-
-### 🎵 Music
-* **Play** - Plays a song. (Youtube Link) **Usage:** !play URL
-* **Stop** - Stops currect song playing. **Usage:** !stop
-* **Leave** - Disconnects from currecnt VC. **Usage:** !leave
 
 ## 💡 Contribute
 If you would like to contribute to the project please open a PR (Pull Request) clearly showing your changes.
