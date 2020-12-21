@@ -30,6 +30,7 @@ request(options, function (error, response, body) {
     console.log(chalk.red("Failed to check for updates, please try again or contact PapaSnags#1555"))
     process.exit()
   }
+  
 // Check if version matches request.
 if(jsonprased.ver == "1.0"){
   console.log(chalk.green("Latest Version Found!"))
