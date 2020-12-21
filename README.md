@@ -85,7 +85,7 @@ Got an issue or need help setting up join the [**Discord Server**](https://disco
 If you would like to contribute to the project please open a PR (Pull Request) clearly showing your changes.
 
 ## 📞 Issues
-If you have any issues feel free to open an issue or join the [Discord Server](https://discord.com/invite/w7B5nKB)
+If you have any issues feel free to open an issue or join the [Discord Server.](https://discord.com/invite/w7B5nKB)
 
 ## 🧲 Extra
 __Created by PapaSnags#1555__
