@@ -26,7 +26,7 @@ exports.run = (client, message, args) =>{
                     message.channel.send(`${tag} please specify a user!`)
                 }
             }else{
-                message.channel.send(`${tag} no perms`)
+                message.channel.send(`${tag} you dont have permission.`)
             }
     }
     else
