@@ -7,7 +7,8 @@ exports.run = (client, message, args) =>{
         const {member, mentions } = message
 
         const tag = `<@${member.id}>`
-        if(
+        if(message.guild.me.hasPermission('KICK_MEMBERS')){        
+            if(
             member.hasPermission('ADMINISTRATOR') ||
             member.hasPermission('KICK_MEMBERS')){
                 const target = mentions.users.first()
@@ -28,6 +29,9 @@ exports.run = (client, message, args) =>{
             }else{
                 message.channel.send(`${tag} you dont have permission.`)
             }
+        }else{
+            message.channel.send(`${tag} Sorry I dont have permission to Kick Members!`)
+        }
     }
     else
     {
