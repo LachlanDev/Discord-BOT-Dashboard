@@ -4,7 +4,7 @@
 <img src="https://i.imgur.com/UT0gCzZ.png">
 <h1>
 <p align="center">
-    <a href="https://github.com/papasnags/Discord-BOT-Dashboard/releases">
+    <a href="https://github.com/PapaSnags/Discord-BOT-Dashboard/releases">
         <img alt="GitHub release" src="https://img.shields.io/github/release/PapaSnags/Discord-BOT-Dashboard.svg">
     </a>
 </p>
