@@ -72,7 +72,7 @@ app.get('/plugins', function(req, res) {
 app.post('/plugins', urlencodedParser,function(req, res) {
     var username = client.user.username;
     var pagetitle = "Plugins"
-    json.update('./cfg/plugins.json',{help:`${req.body.help}`, info:`${req.body.serverinfo}`, userinfo:`${req.body.userinfo}`})
+    json.update('./cfg/plugins.json',{ban:`${req.body.ban}`,kick:`${req.body.kick}`,clear:`${req.body.clear}`,userinfo:`${req.body.userinfo}`,info:`${req.body.serverinfo}`,stats:`${req.body.stats}`,help:`${req.body.help}`,coin:`${req.body.coin}`,dog:`${req.body.dog}`,cat:`${req.body.cat}`,ball:`${req.body.ball}`,roll:`${req.body.roll}`})
     .then(function(dat) { 
     var config = jsonfile.readFileSync(file);
     var plugins = jsonfile.readFileSync(filep);
