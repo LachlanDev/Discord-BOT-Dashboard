@@ -106,9 +106,20 @@
     </main>
     <script>
         function sel() {
-        document.getElementById("help-"+<%= plugins.help %>).selected = "true";
-        document.getElementById("serverinfo-"+<%= plugins.info %>).selected = "true";
-        document.getElementById("userinfo-"+<%= plugins.userinfo %>).selected = "true";
+          document.getElementById("ban-"+<%= plugins.ban %>).selected = "true";
+          document.getElementById("kick-"+<%= plugins.kick %>).selected = "true";
+          document.getElementById("clear-"+<%= plugins.clear %>).selected = "true";
+
+          document.getElementById("userinfo-"+<%= plugins.userinfo %>).selected = "true";
+          document.getElementById("serverinfo-"+<%= plugins.info %>).selected = "true";
+          document.getElementById("stats-"+<%= plugins.stats %>).selected = "true";
+          document.getElementById("help-"+<%= plugins.help %>).selected = "true";
+
+          document.getElementById("coin-"+<%= plugins.coin %>).selected = "true";
+          document.getElementById("dog-"+<%= plugins.dog %>).selected = "true";
+          document.getElementById("cat-"+<%= plugins.cat %>).selected = "true";
+          document.getElementById("ball-"+<%= plugins.ball %>).selected = "true";
+          document.getElementById("roll-"+<%= plugins.roll %>).selected = "true";
         }
         sel()
         </script>
