@@ -77,6 +77,10 @@ Got an issue or need help setting up join the [**Discord Server**](https://disco
 * **8-Ball** - Ask the 8-ball a question. **Usage:** !8-ball
 * **Roll** - Roles a dice (6-Sided). **Usage:** !roll
 
+## 🔧 Changelog
+#### v1.0 Initial Release (21st December 2020):
+* Released all basic functions.
+
 ## 💡 Contribute
 If you would like to contribute to the project please open a PR (Pull Request) clearly showing your changes.
 
