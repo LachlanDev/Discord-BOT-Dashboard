@@ -48,6 +48,8 @@ Got an issue or need help setting up join the [**Discord Server**](https://disco
  - 🕓: Work in progress
  - 💯: Prioritising before everything else
 * User Auth (Login to access dashboard). 🕓 / 💯
+* Docker Container Support. 🕓 / 💯
+
 * Ability to change the BOTS profile picture in settings. ❌
 * Change BOTS status in settings. ❌
 * More statistics on main dashboard. ❌
