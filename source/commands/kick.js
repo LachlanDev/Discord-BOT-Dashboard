@@ -1,6 +1,7 @@
 const discord = require ("discord.js");
 const jsonfile = require('jsonfile')
 const file = './cfg/plugins.json'
+const chalk = require('chalk');
 
 exports.run = (client, message, args) =>{
     if(jsonfile.readFileSync(file).kick == "true"){
