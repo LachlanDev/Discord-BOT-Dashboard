@@ -31,7 +31,7 @@ module.exports = (client) => {
       }catch{
         console.log("Update Check Failed.")
       }
-      if(jsonprased.ver == "1.0"){
+      if(jsonprased.ver == "1.1"){
         var update = "none";
       }
       else{

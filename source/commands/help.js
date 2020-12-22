@@ -9,7 +9,7 @@ exports.run = (client, message, args) =>{
         const help = new discord.MessageEmbed()
         .setColor('#b434eb')
         .setTitle(`${client.user.username} - Help`)
-        .setFooter("Made using Discord BOT Dashboard v1.0 by PapaSnags#1555", "https://avatars1.githubusercontent.com/u/58458169?s=460&u=79564adeae9287fecf24814f64ed89cff91ca358&v=4")
+        .setFooter("Made using Discord BOT Dashboard v1.1 by PapaSnags#1555", "https://avatars1.githubusercontent.com/u/58458169?s=460&u=79564adeae9287fecf24814f64ed89cff91ca358&v=4")
         // Moderation Commands
         if(jsonfile.readFileSync(file).ban == "true"){
             help.addField("Ban",`Bans a user from the server.\n Usage: ${config.prefix}ban @user\n`)

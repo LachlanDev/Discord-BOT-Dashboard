@@ -32,7 +32,7 @@ request(options, function (error, response, body) {
   }
   
 // Check if version matches request.
-if(jsonprased.ver == "1.0"){
+if(jsonprased.ver == "1.1"){
   console.log(chalk.green("Latest Version Found!"))
 
   // We listen for client's ready event.
