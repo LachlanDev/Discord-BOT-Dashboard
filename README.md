@@ -76,7 +76,7 @@ Got an issue or need help setting up join the [**Discord Server**](https://disco
 * **8-Ball** - Ask the 8-ball a question. **Usage:** !8-ball
 * **Roll** - Roles a dice (6-Sided). **Usage:** !roll
 
-## 🔧 Changelog
+## 🔧 Changelog [Detailed Changelog](https://github.com/PapaSnags/Discord-BOT-Dashboard/wiki/Changelog)
 #### v1.1 Initial Released (22nd December 2020):
 * Added Darkmode.
 * Bug Fixes.
