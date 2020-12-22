@@ -53,7 +53,6 @@ Got an issue or need help setting up join the [**Discord Server**](https://disco
 * Ability to change the BOTS profile picture in settings. ❌
 * Change BOTS status in settings. ❌
 * More statistics on main dashboard. ❌
-* Dark Mode ❌
 * Music Commands ❌
 
 * **Open issues for features you want**
@@ -78,7 +77,10 @@ Got an issue or need help setting up join the [**Discord Server**](https://disco
 * **Roll** - Roles a dice (6-Sided). **Usage:** !roll
 
 ## 🔧 Changelog
-#### v1.0 Initial Release (21st December 2020):
+#### v1.1 Initial Released (22nd December 2020):
+* Added Darkmode.
+* Bug Fixes.
+#### v1.0 Initial Released (21st December 2020):
 * Released all basic functions.
 
 ## 💡 Contribute
