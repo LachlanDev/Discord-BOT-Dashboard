@@ -18,6 +18,7 @@ const port = 3000
 module.exports = (client) => {
   app.set('view engine', 'ejs');
   app.use(favicon("./views/ico.png")); 
+  app.use(express.static('./public'));
 
   var urlencodedParser = bodyParser.urlencoded({ extended: false })
 
