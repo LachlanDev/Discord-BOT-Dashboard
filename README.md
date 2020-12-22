@@ -77,7 +77,7 @@ Got an issue or need help setting up join the [**Discord Server**](https://disco
 
 ## 🔧 Changelog 
 For a more Detailed Changelog please check it [here](https://github.com/PapaSnags/Discord-BOT-Dashboard/wiki/Changelog)
-#### v1.1 Initial Released (22nd December 2020):
+#### v1.1 Dark Mode (22nd December 2020):
 * Added Darkmode.
 * Bug Fixes.
 #### v1.0 Initial Released (21st December 2020):
