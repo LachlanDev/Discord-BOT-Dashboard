@@ -90,7 +90,7 @@ If you would like to contribute to the project please open a PR (Pull Request) c
 If you have any issues feel free to open an issue or join the [Discord Server.](https://discord.com/invite/w7B5nKB)
 
 ## 🧲 Extra
-__Created by PapaSnags#1555__
+__Created by PapaSnags#8014__
 * [Website](https://papa-snags.com/projects/PLUG/)
 * [Twitter](https://twitter.com/PapaSnags)
 * [Instagram](https://www.instagram.com/papa.snags/)
