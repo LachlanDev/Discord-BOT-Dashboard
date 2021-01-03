@@ -12,7 +12,7 @@
 # 📚 About
 Discord BOT Dashboard is made to make **Discord BOT Development** easy, designed to create applications without having to write a single line of code while using a user friendly Web-Dashboard! Please check out the Wiki before getting started. [here](https://github.com/PapaSnags/Discord-BOT-Dashboard/wiki)
 
-# Dashboard Preview 
+# Dashboard Preview:
 <img src="https://i.imgur.com/mcF1WMj.png">
 
 ## 🔒 Requirements
