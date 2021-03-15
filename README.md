@@ -1,6 +1,6 @@
 <h1 align="center">
     <br>
-    <p>Discord BOT Dashboard - v1.0</p>
+    <p>Discord BOT Dashboard - v1.1</p>
 <img src="https://i.imgur.com/UT0gCzZ.png">
 <h1>
 <p align="center">
