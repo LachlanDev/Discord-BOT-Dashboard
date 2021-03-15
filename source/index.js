@@ -13,7 +13,7 @@ client.config = config;
 console.log(chalk.blue("Checking for updates..."))
 var options = {
   method: 'GET',
-  url: `https://papa-snags.com/version/dbd.txt`,
+  url: `https://lachlan-dev.com/version/dbd.txt`,
   headers: {
     'User-Agent': 'Discord-Bot-Dashboard',
     useQueryString: true
@@ -27,7 +27,7 @@ request(options, function (error, response, body) {
   } 
   catch (e) 
   {
-    console.log(chalk.red("Failed to check for updates, please try again or contact PapaSnags#1555"))
+    console.log(chalk.red("Failed to check for updates, please try again or contact LachlanDev#8014"))
     process.exit()
   }
   
