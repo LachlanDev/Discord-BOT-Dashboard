@@ -25,7 +25,7 @@ module.exports = (client) => {
   // Dashboard Page
   app.get('/', function(req, res) {
       try{
-        request('https://papa-snags.com/version/dbd.txt', function (error, response, body) {
+        request('https://lachlan-dev.com/version/dbd.txt', function (error, response, body) {
             jsonprased = JSON.parse(body)
         });
       }catch{
