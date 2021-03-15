@@ -22,7 +22,7 @@ exports.run = (client, message, args) =>{
                     .addField("User",`${target} was kicked from the server!`)
                     .addField("Moderator",`${member}`)
                     .setThumbnail(target.avatarURL())
-                    .setFooter("Made using Discord BOT Dashboard v1.1 by PapaSnags#1555", "https://avatars1.githubusercontent.com/u/58458169?s=460&u=79564adeae9287fecf24814f64ed89cff91ca358&v=4")
+                    .setFooter("Made using Discord BOT Dashboard v1.1 by LachlanDev#8014", "https://avatars1.githubusercontent.com/u/58458169?s=460&u=79564adeae9287fecf24814f64ed89cff91ca358&v=4")
                     message.channel.send({embed: kick })
                 }else{
                     message.channel.send(`${tag} please specify a user!`)
