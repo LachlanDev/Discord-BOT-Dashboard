@@ -4,13 +4,13 @@
 <img src="https://i.imgur.com/UT0gCzZ.png">
 <h1>
 <p align="center">
-    <a href="https://github.com/PapaSnags/Discord-BOT-Dashboard/releases">
-        <img alt="GitHub release" src="https://img.shields.io/github/release/PapaSnags/Discord-BOT-Dashboard.svg">
+    <a href="https://github.com/LachlanDev/Discord-BOT-Dashboard/releases">
+        <img alt="GitHub release" src="https://img.shields.io/github/release/LachlanDev/Discord-BOT-Dashboard.svg">
     </a>
 </p>
 
 # 📚 About
-Discord BOT Dashboard is made to make **Discord BOT Development** easy, designed to create applications without having to write a single line of code while using a user friendly Web-Dashboard! Please check out the Wiki before getting started. [here](https://github.com/PapaSnags/Discord-BOT-Dashboard/wiki)
+Discord BOT Dashboard is made to make **Discord BOT Development** easy, designed to create applications without having to write a single line of code while using a user friendly Web-Dashboard! Please check out the Wiki before getting started. [here](https://github.com/LachlanDev/Discord-BOT-Dashboard/wiki)
 
 # Dashboard Preview:
 <img src="https://i.imgur.com/mcF1WMj.png">
@@ -20,7 +20,7 @@ Discord BOT Dashboard is made to make **Discord BOT Development** easy, designed
 
 ## 🚀 Installation / Setup
 #### ⌚ Installing Requirements
-Download the latest version from [Releases](https://github.com/papasnags/Discord-BOT-Dashboard/releases), open up the root directory and run the following command.
+Download the latest version from [Releases](https://github.com/LachlanDev/Discord-BOT-Dashboard/releases), open up the root directory and run the following command.
 ```bash
 npm install
 ```
