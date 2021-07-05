@@ -1,3 +1,6 @@
+# ⚠️ NOTICE
+This version is outdated, please check out <a href="https://github.com/LachlanDev/Discord-BOT-Dashboard-V2">Discord BOT Dashboard v2</a>    
+    
 <h1 align="center">
     <br>
     <p>Discord BOT Dashboard - v1.1</p>
